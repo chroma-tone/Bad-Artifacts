@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Bad Artifacts Interactive</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/themes/base/css")
+    @Styles.Render("~/Content.themes/")
+</head>
+<body>
+    
+    
+    <div>
+        <ul id="nav-menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+            <li><a href="#">Contacts us</a>
+                <ul>
+                    <li><a href="#">Item 3-1</a></li>
+                    <li><a href="#">Item 3-2</a></li>
+                    <li><a href="#">Item 3-3</a></li>
+                    <li><a href="#">Item 3-4</a></li>
+                    <li><a href="#">Item 3-5</a></li>
+                </ul>
+            </li>
+      
+        </ul>
+        <div id="body">
+            @RenderBody()
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+            <ul id="menu">
+                <li>@Html.ActionLink("About", "Index", "Home", new { area = "" }, null)</li>
+                <li>@Html.ActionLink("Projects", "Projects", "Home", new { area = "" }, null)</li>
+            </ul>
+        </nav> 
+        <p></p>
+        <p>&copy; @DateTime.Now.Year - Bad Artifacts Interactive</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/ajaxlogin")
+    @RenderSection("scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            var t = $("#nav-menu").menu();
+            var menus = $("#nav-menu").menu("option", "menus");
+        });
+
+
+</script>
+</body>
+</html>
