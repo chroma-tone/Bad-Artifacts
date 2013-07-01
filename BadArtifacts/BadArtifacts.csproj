@@ -218,6 +218,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\themes\badArtifacts\jquery-ui-1.10.3.custom.css" />
+    <Content Include="Content\themes\badArtifacts\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="Content\themes\badArtifacts\images\animated-overlay.gif" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_carbon-fiber_40_a9d69f_8x9.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_fine-grain_18_519744_60x60.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_glass_75_b5bbb4_1x400.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_highlight-soft_15_333_1x100.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-bg_layered-circles_18_7d8c69_13x13.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\badArtifacts\images\ui-icons_cd0a0a_256x240.png" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />

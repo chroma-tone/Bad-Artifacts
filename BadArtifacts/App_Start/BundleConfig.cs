@@ -40,7 +40,7 @@ namespace BadArtifacts
                 "~/Content/TodoList.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
-                        "~/Content/themes/smoothness/jquery-ui-1.10.3.custom.css"));
+                        "~/Content/themes/badArtifacts/jquery-ui-1.10.3.custom.css"));
         }
     }
 }
