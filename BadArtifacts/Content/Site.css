@@ -1,14 +1,26 @@
 ﻿body, input, button {
-    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-    font-size: 1.2em;
+    font-family: Palatino Linotype, Book Antiqua3, Palatino;
+	font-size: 1.2em;
 }
 
 body {
     
     max-width: 980px; 
     margin: 1em auto;
-     background-image:url(/images/bg_tile_02.jpg);
+   background-image:url(/images/bg_tile_02.jpg);
 }
+#layout_Grid{
+    margin-top:15px;
+     width: auto;
+    float: right;
+}
+#side-nav{
+    margin-top:145px;
+     width: auto;
+    float: left;
+}
+
+
 
 button, input[type=submit] {
     border: 1px solid #dedede;
@@ -18,7 +30,9 @@ button, input[type=submit] {
 }
 
 .ui-menu {
+    margin-top:1200px;
     width: 200px;
+
   }
 
 .content-wrapper {
